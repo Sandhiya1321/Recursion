@@ -2,7 +2,7 @@ package base;
 
 public class Fibanacii {
     public static void main(String[] args) {
-        System.out.println(fiibo(10));
+        System.out.println(fiibo(5));
     }
     static int fiibo(int n){
         if(n<2){

@@ -6,7 +6,7 @@ public class prime {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         int n=scan.nextInt();
-        System.out.println(prime(n));
+        System.out.println(isPrime(n,2));
     }
 
 
@@ -18,8 +18,8 @@ public class prime {
         return isPrime(n, divisor + 1);
     }
 
-    public static boolean prime(int n) {
-        return isPrime(n, 2);
-    }
+//    public static boolean prime(int n) {
+//        return isPrime(n, 2);
+//    }
 
 }
